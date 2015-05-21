@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIFolderTableView.h"
 @interface ViewController : UIViewController
 
-
+@property (weak, nonatomic) IBOutlet UIFolderTableView *tableView;
+@property (strong, nonatomic) NSArray *cates;
 @end
 
